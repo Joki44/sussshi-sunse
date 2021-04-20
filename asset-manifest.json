@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sussshi-sunse/static/css/main.d21d1818.chunk.css",
-    "main.js": "/sussshi-sunse/static/js/main.0f5c2f4f.chunk.js",
-    "main.js.map": "/sussshi-sunse/static/js/main.0f5c2f4f.chunk.js.map",
+    "main.js": "/sussshi-sunse/static/js/main.b84803ae.chunk.js",
+    "main.js.map": "/sussshi-sunse/static/js/main.b84803ae.chunk.js.map",
     "runtime-main.js": "/sussshi-sunse/static/js/runtime-main.e64d58d7.js",
     "runtime-main.js.map": "/sussshi-sunse/static/js/runtime-main.e64d58d7.js.map",
     "static/js/2.f05990bf.chunk.js": "/sussshi-sunse/static/js/2.f05990bf.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e64d58d7.js",
     "static/js/2.f05990bf.chunk.js",
     "static/css/main.d21d1818.chunk.css",
-    "static/js/main.0f5c2f4f.chunk.js"
+    "static/js/main.b84803ae.chunk.js"
   ]
 }
