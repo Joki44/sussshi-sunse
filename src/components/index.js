@@ -1,0 +1,9 @@
+export {default as Header} from './Header';
+export {default as NavMenu} from './NavMenu';
+export {default as Categories} from './Categories';
+export {default as Footer} from './Footer';
+export {default as ItemBlock} from './ItemBlock';
+export {default as CartItemBlock} from './CartItemBlock';
+export {default as BurgerMenu} from './BurgerMenu';
+export {default as EmptyCart} from './EmptyCart';
+export {default as CartWithItems} from './CartWithItems';

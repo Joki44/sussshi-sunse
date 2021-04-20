@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    min-height: calc(100vh - 150px);
+}
+
+button {
+    &:active {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+footer {
+    margin: 20px 0 10px;
+    text-align: center;
+    ul {
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 10px;
+        }
+    }
+}

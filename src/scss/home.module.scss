@@ -1,0 +1,25 @@
+.products{
+    position: relative;
+    width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    grid-gap: 10px;
+    // padding-top: 90px;
+    z-index: 10;
+}
+@media (max-width: 1170px){
+    .products{
+        width: 95%;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 770px){
+    .products{
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+}

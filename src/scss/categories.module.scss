@@ -1,0 +1,15 @@
+$color_first: rgb(6, 184, 216);
+
+.categories{
+    ul{
+        padding-top: 30px;
+        li{
+            display: inline;
+            font-size: 18px;
+            padding: 18px;
+            a:hover{
+                color: $color_first;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+$color_first: rgb(6, 184, 216);
+
+.nav_menu{
+    position: fixed;
+    background: $color_first;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    z-index:-19;
+    top: 75px;
+    opacity: 0;
+    z-index:-119;
+    ul{
+        padding-top: 20px;
+        li{
+            display: inline-block;
+            font-size: 18px;
+            padding-left: 30px;
+            a{
+                color: #fff;
+            }
+            a:hover{
+                color: rgba($color: #fff, $alpha: 0.5);
+            }
+        }
+    }
+}
+
+.visible{
+    opacity: 1;
+    z-index: 1119;
+    transition: opacity 0.2s,;
+}
+.hidden{
+    opacity: 0;
+    z-index: -119;
+    transition: opacity 0.2s, z-index 0.2s  ;
+}
