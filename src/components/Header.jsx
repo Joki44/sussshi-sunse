@@ -28,45 +28,41 @@ function Header(props) {
         <header>
             <div className={style.header}>
                 <div className={style.wrapper}>
-                    {scren && 
-                        <div className={style.burger_wrapper}>
-                            <div className={visibleMenu? `${style.container} ${style.change}` : style.container} 
-                                onClick={() => setVisibleMenu(!visibleMenu)}>
-                                <div className={style.bar1}></div>
-                                <div className={style.bar2}></div>
-                                <div className={style.bar3}></div>
-                            </div> 
-                            <BurgerMenu items = {[ {value: "Суши", href: "/"}, 
-                                {value: "Роллы", href: "/rolls"}, 
-                                {value: "Ассорти", href: "/assorted"}, 
-                                {value: "Закуски и салаты", href: "/snacks_and_salads"}, 
-                                {value: "Еще", href: "/more"} ]} 
-                                active={visibleMenu} 
-                                setActiv={() => setVisibleMenu(!visibleMenu)}
-                            />
-                        </div>
-                    }
-                    <Link to="/">
+                    <div className={style.burger_wrapper}>
+                        <div className={visibleMenu? `${style.container} ${style.change}` : style.container} 
+                            onClick={() => setVisibleMenu(!visibleMenu)}>
+                            <div className={style.bar1}></div>
+                            <div className={style.bar2}></div>
+                            <div className={style.bar3}></div>
+                        </div> 
+                        <BurgerMenu items = {[ {value: "Суши", href: "/sussshi-sunse/"}, 
+                            {value: "Роллы", href: "/rolls"}, 
+                            {value: "Ассорти", href: "/assorted"}, 
+                            {value: "Закуски и салаты", href: "/snacks_and_salads"}, 
+                            {value: "Еще", href: "/more"} ]} 
+                            active={visibleMenu} 
+                            setActiv={() => setVisibleMenu(!visibleMenu)}
+                        />
+                    </div>
+                    <Link to="/sussshi-sunse/">
                         <div className={style.logo}>
                             <div className={style.logo_img}>
-                                <img src={logo} alt="" />
+                                <img src={logo} alt="logo" />
                             </div>
                             <div className={style.logo_block}>
                                 <h1>SussshiSunse</h1>
                             </div>
                         </div>
                     </Link>
-                    {!scren &&
-                        <Categories items={["Суши","Роллы","Ассорти","Закуски и салаты","Еще"]} 
-                                    paths={["/","/rolls","/assorted","/snacks_and_salads","/more"]}
-                                    onMouseLeave={hidenNavMenu}
-                                    onMouseEnter={[hidenNavMenu,
-                                                    vRolls,
-                                                    hidenNavMenu,
-                                                    hidenNavMenu,
-                                                    vDop]}
-                        /> 
-                    }
+                    <Categories items={["Суши","Роллы","Ассорти","Закуски и салаты","Еще"]} 
+                                paths={["/sussshi-sunse/","/rolls","/assorted","/snacks_and_salads","/more"]}
+                                onMouseLeave={hidenNavMenu}
+                                onMouseEnter={[hidenNavMenu,
+                                                vRolls,
+                                                hidenNavMenu,
+                                                hidenNavMenu,
+                                                vDop]}
+                    /> 
                     <div className={style.cart}>
                         <Link to="/Cart">
                             <button onClick={() => setVisibleMenu(false)}>

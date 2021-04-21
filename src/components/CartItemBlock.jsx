@@ -22,7 +22,7 @@ function CartItemBlock(props) {
                 <button className={`${style.btn} ${style.plus}`} onClick={handlePlusItem}><span>+</span></button>
                 <p className={style.total_count}> {props.totalCount}</p>
                 <button className={`${style.btn} ${style.minus}`} onClick={handleMinusItem}><span>-</span></button>
-                <p className=""> {props.totalPrice}₽ </p>
+                <p className={style.totalPrice}> {props.totalPrice}₽ </p>
                 <button className={`${style.btn} ${style.delete}`} onClick={handleRemoveClick}> Удалить товар</button>
             </div>
     )

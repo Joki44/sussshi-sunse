@@ -1,6 +1,7 @@
 $color_first: rgb(6, 184, 216);
 
 .categories{
+    display: block;
     ul{
         padding-top: 30px;
         li{
@@ -11,5 +12,11 @@ $color_first: rgb(6, 184, 216);
                 color: $color_first;
             }
         }
+    }
+}
+
+@media (max-width: 1170px){
+    .categories{
+        display: none;
     }
 }

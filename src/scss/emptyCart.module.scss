@@ -1,11 +1,12 @@
 $color_first: rgb(6, 184, 216);
 
 .empty_cart{
-    margin: 100px auto 70px;
+    margin: 0 auto 70px;
     width: 1100px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    height: 800px;
     h2{
         padding: 20px 0px 10px;
         font-size: 22px;
@@ -15,7 +16,7 @@ $color_first: rgb(6, 184, 216);
         font-size: 17px;
     }
     button {
-        margin: 40px 0 20px;
+        margin: 80px 0 20px;
         grid-column: 4/-1;
         padding: 5px 15px 7px ;
         border: 2px solid $color_first;
@@ -31,7 +32,6 @@ $color_first: rgb(6, 184, 216);
             color: #fff;
         }
     }
-    height: calc(100vh - 200px);
 }
 
 @media (max-width: 1170px){
@@ -50,10 +50,12 @@ $color_first: rgb(6, 184, 216);
             font-size: 14px;
         }
         .img{
-            height: 530px;
             img{
-                width: 80%;
+                width: 430px;
             }
+        }
+        button {
+            display: none;
         }
     }
 }
@@ -61,11 +63,29 @@ $color_first: rgb(6, 184, 216);
 
 @media (max-width: 600px){
     .empty_cart{
+        height: 640px;
         h2{
             font-size: 18px;
         }
         p{
             font-size: 13px;
+        }
+        .img{
+            img{
+                width: 330px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .empty_cart{
+        box-shadow: none;
+
+        .img{
+            img{
+                width: 300px;
+            }
         }
     }
 }

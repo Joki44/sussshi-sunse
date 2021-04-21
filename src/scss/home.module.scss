@@ -23,3 +23,10 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 550px){
+    .products{
+        width: 95%;
+        grid-template-columns: 1fr;
+    }
+}

@@ -17,7 +17,7 @@ $color_first: rgb(6, 184, 216);
             margin: 10px 50px 10px 10px;
             font-size: 16px;
             font-weight: 400;
-            }
+        }
     }
     h5{
         margin: auto auto auto auto;
@@ -135,6 +135,33 @@ $color_first: rgb(6, 184, 216);
             p{
                 display: none;
             }
+        }
+    }
+}
+@media (max-width: 500px){
+    .product{
+        grid-template-columns: 55px 40px 40px 25px 1fr ;
+        img{
+            grid-column: 1/-2;
+            margin: 0 0 15px;
+        }
+        .product_info{
+            text-align: center;
+            h5{
+                margin: 25px 0 0 0;
+            }
+        }
+        .totalPrice{
+            grid-column: 5/-2;
+        }
+        .plus{
+            grid-column: 1/2;
+        }
+        .minus{
+            grid-column: 3/4;
+        }
+        .delete{
+            display: none;
         }
     }
 }

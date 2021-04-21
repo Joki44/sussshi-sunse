@@ -7,6 +7,7 @@ function Cart() {
     
     return (
     <main>
+        <div className="indent"/>
         <div className="wrapper">
             {totalCount ? (<CartWithItems></CartWithItems>) : (<EmptyCart></EmptyCart>)}
         </div>
