@@ -13,20 +13,23 @@ function Home(props) {
     }
     
     return (
-        <main className={`${style.products} wrapper`}>
+        <>
             <div className="indent"/>
-            {props.items.map(obj => 
-                <ItemBlock 
-                    key={obj.id} 
-                    id={obj.id} 
-                    name={obj.name} 
-                    img={obj.img} 
-                    description={obj.description} 
-                    price={obj.price} 
-                    onClickAddItem={handleAddItemToCart} 
-                />)
-            }
-        </main>
+            <main className={`${style.products} wrapper`}>
+                <div className="indent"/>
+                {props.items.map(obj => 
+                    <ItemBlock 
+                        key={obj.id} 
+                        id={obj.id} 
+                        name={obj.name} 
+                        img={obj.img} 
+                        description={obj.description} 
+                        price={obj.price} 
+                        onClickAddItem={handleAddItemToCart} 
+                    />)
+                }
+            </main>
+        </>
     )
 }
 
