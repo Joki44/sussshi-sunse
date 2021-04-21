@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sussshi-sunse/static/css/main.d21d1818.chunk.css",
-    "main.js": "/sussshi-sunse/static/js/main.ce5e410f.chunk.js",
-    "main.js.map": "/sussshi-sunse/static/js/main.ce5e410f.chunk.js.map",
+    "main.css": "/sussshi-sunse/static/css/main.83d589e4.chunk.css",
+    "main.js": "/sussshi-sunse/static/js/main.b57cf834.chunk.js",
+    "main.js.map": "/sussshi-sunse/static/js/main.b57cf834.chunk.js.map",
     "runtime-main.js": "/sussshi-sunse/static/js/runtime-main.e64d58d7.js",
     "runtime-main.js.map": "/sussshi-sunse/static/js/runtime-main.e64d58d7.js.map",
     "static/js/2.c3046d12.chunk.js": "/sussshi-sunse/static/js/2.c3046d12.chunk.js",
     "static/js/2.c3046d12.chunk.js.map": "/sussshi-sunse/static/js/2.c3046d12.chunk.js.map",
     "index.html": "/sussshi-sunse/index.html",
-    "static/css/main.d21d1818.chunk.css.map": "/sussshi-sunse/static/css/main.d21d1818.chunk.css.map",
+    "static/css/main.83d589e4.chunk.css.map": "/sussshi-sunse/static/css/main.83d589e4.chunk.css.map",
     "static/js/2.c3046d12.chunk.js.LICENSE.txt": "/sussshi-sunse/static/js/2.c3046d12.chunk.js.LICENSE.txt",
     "static/media/empty-cart.db905d1f.png": "/sussshi-sunse/static/media/empty-cart.db905d1f.png",
     "static/media/logo.c706418d.svg": "/sussshi-sunse/static/media/logo.c706418d.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.e64d58d7.js",
     "static/js/2.c3046d12.chunk.js",
-    "static/css/main.d21d1818.chunk.css",
-    "static/js/main.ce5e410f.chunk.js"
+    "static/css/main.83d589e4.chunk.css",
+    "static/js/main.b57cf834.chunk.js"
   ]
 }
