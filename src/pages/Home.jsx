@@ -16,7 +16,6 @@ function Home(props) {
         <>
             <div className="indent"/>
             <main className={`${style.products} wrapper`}>
-                <div className="indent"/>
                 {props.items.map(obj => 
                     <ItemBlock 
                         key={obj.id} 
